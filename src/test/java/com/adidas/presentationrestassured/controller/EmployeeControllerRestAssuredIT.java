@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.is;
 import static org.springframework.hateoas.MediaTypes.HAL_JSON_VALUE;
 
-class EmployeeControllerIT extends BaseControllerIT {
+class EmployeeControllerRestAssuredIT extends BaseControllerIT {
 
   @Test
   void getAllEmployees() throws IOException, ParseException {
