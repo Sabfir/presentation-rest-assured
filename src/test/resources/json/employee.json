@@ -1,0 +1,14 @@
+{
+  "name": "Test name",
+  "dateOfBirth": "2000-01-01",
+  "roles": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "admin"
+    }
+  ]
+}
