@@ -16,7 +16,7 @@ import org.springframework.boot.web.server.LocalServerPort;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public abstract class BaseControllerIT {
   @LocalServerPort
-  private int port;
+  protected int port;
 
   @BeforeEach
   public void setup() {
